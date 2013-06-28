@@ -1,0 +1,150 @@
+
+/*Sprites*/
+
+.social-media-nav {
+	list-style: none;
+	padding: 5px;
+}
+
+.social-media-nav li {
+	float: right;
+}
+	
+.social-media-nav li a {
+	display: block;
+	width: 64px;
+	height: 64px;
+	margin-right: 10px;
+	
+	/* hide text */
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.social-media-nav li.linkedin {
+	background-image: url("../images/socialNav.png");
+	background-position: -49px -49px;
+}
+.social-media-nav li.linkedin:hover {
+	background: url("../images/socialNav.png") -49px -149px; 
+}
+
+.social-media-nav li.dribble {
+	background: url("../images/socialNav.png") -149px -48px; 
+}
+.social-media-nav li.dribble:hover {
+	background: url("../images/socialNav.png") -149px -149px; 
+}
+
+.social-media-nav li.twitter {
+	background: url("../images/socialNav.png") -250px -49px; 
+}
+.social-media-nav li.twitter:hover {
+	background: url("../images/socialNav.png") -250px -149px; 
+}
+
+.social-media-nav li.phone {
+	background: url("../images/socialNav.png") -350px -49px; 
+}
+.social-media-nav li.phone:hover {
+	background: url("../images/socialNav.png") -350px -149px; 
+}
+
+.social-media-nav li.email {
+	background: url("../images/socialNav.png") -450px -49px ; 
+}
+.social-media-nav li.email:hover {
+	background: url("../images/socialNav.png") -450px -149px; 
+}
+
+
+
+/*General CSS*/
+
+body {
+background-color: #F4F5ED;
+}
+
+.info {
+	float:left;
+	margin-left:20px;
+	margin-top:20px;
+	
+}
+
+.header {
+	margin: 0px auto 20px auto;
+	display: block;
+
+}
+.content-container {
+	margin: 0px auto 0px auto;
+	width: 800px;
+	padding:10px 10px;
+	background-color: #fff;
+}
+
+.hr {
+	color: #000;
+	background-color: #000;
+	height: 2px;
+	border-width: 0px;
+
+}
+
+.name { 
+	font-family:'Noto Sans';
+	padding-left: 10px;
+	padding-top: 0px;
+}
+
+
+.links {
+	text-decoration: none;
+}
+
+.image {
+	float:left;
+	
+}
+
+h2 h3 p {
+	font-family:'Average Sans';
+}
+
+h4 {
+	font-family: 'Noto Sans';
+	font-style: italic;
+	font-size: .90em;
+	margin: 5px 0px 5px 10px;
+}
+
+h3 {
+	margin: 15px 0px 5px 0px;
+}
+
+p {
+	margin: 5px auto 16px 10px;
+}
+#description {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.sub-text {
+	margin: 5px 0px;
+	font-family: 'Noto Sans';
+	font-style: italic;
+
+}
+
+/* Clear Fix */  	/* creates a box around the the two colums in the first row and therefore send the footer to the bottom */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
